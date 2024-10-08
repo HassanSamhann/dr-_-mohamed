@@ -1,0 +1,56 @@
+html{
+	scroll-behavior:smooth;
+}
+
+.service_1icon
+{
+	width: 30px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.service_1icon svg
+{
+	width: 30px;
+	height: 30px;
+}
+.service_1icon img
+{
+	max-width: 100%;
+    
+}
+/* #img{
+	background-image:url(//images/1.jpg);
+}
+@media screen and (max-width: 600px) {
+
+#img{
+	background-image:url(//images/3.jpg)
+}
+} */
+
+#but-prog{
+margin: 0 auto;
+}
+#but-prog a{
+	background-color: white;
+
+	color: #283290; 
+	transform: .4s;
+
+}
+#but-prog a::before{
+	content: "";
+	background-color: #20d34a;
+	width: 100%;
+	height: 5px;
+	z-index: 500;
+	position: absolute;
+	left: 0;
+	bottom: 0
+	;
+}
+#but-prog a:hover{
+	background-color: #20d34a;
+	color: white; 
+}
